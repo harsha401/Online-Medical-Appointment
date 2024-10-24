@@ -1,0 +1,72 @@
+
+body {
+    background-image: url("doctor.jpeg");
+    font-family: 'Roboto', sans-serif;
+    padding-left: 7%;
+    padding-right:7%;
+    padding-bottom: 7%;
+  }
+  .login-container {
+    
+    padding: 40px;
+    border-radius: 8px;
+    color: #000;
+    border-color: black;
+    font-family: 'Roboto', sans-serif;
+    width:300px;
+    margin:auto;
+    height: 700px;
+    border-width: 20px;
+}
+
+.login-form {
+    width: 00px;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.input-container {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(101, 30, 4);
+}
+
+input {
+    width: 100%;
+    padding: 9px ;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+button {
+    background-color: skyblue;
+    color: whitesmoke;
+    padding: 12px;
+    border: none;
+    width: 80%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin:center;
+
+}
+
+
+
+button:hover {
+    background-color: green;
+}

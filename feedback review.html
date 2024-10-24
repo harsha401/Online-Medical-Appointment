@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback review.css">
+    <link rel="stylesheet" href="style_sheet.css">
+    <title>Hospital Feedback Form</title>
+</head>
+<body>
+    <div class="container">
+        <div><p><img class="logo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvZ-cJ492gMfbhgpiEPwcau6EFVdiCumN5WOeJB3-y-DQ2Bo7d" ></p></div>
+        <div><p class="heading"> Apollo Hospitals <sub class="transforming">&nbsp;since 1998</sub></p></div>
+    </div>
+
+    <div class="container1">
+        <h1>Hospital Feedback Form</h1>
+        <form action="#" method="post">
+
+            <label for="rating">Rate Your Experience (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+            <a href="main page.html">
+            <button type="button" onclick="popup()">Sumbit</button>
+            </a>
+        </form>
+        <script>
+            function popup(){
+                alert("Feedback submited")
+            }
+        </script>
+    </div>
+
+</body>
+</html>

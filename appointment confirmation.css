@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  
+  .confirmation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .confirmation-card {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+  }
+  
+  .confirmation-card h1 {
+    color: black;
+  }
+  
+  .appointment-details {
+    margin-top: 20px;
+  }
+  
+  .btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:black;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    background-color: black;
+  }
+  
+  
+  
